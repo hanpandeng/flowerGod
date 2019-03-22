@@ -1,0 +1,325 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+input,
+button {
+    outline: none;
+    border: 0;
+}
+
+html,
+body,
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.header {
+    /* width: 100%;
+    height: 100%; */
+    position: relative;
+}
+
+.haed,
+.footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.look {
+    color: #666;
+    font-size: 2vh;
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: underline;
+}
+
+/* 手机号登录 */
+.shade {
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    box-sizing: border-box;
+    display: none;
+}
+
+.detail,
+.attentionBox {
+    width: 100%;
+    height: 100%;
+    padding: 20% 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 3;
+    box-sizing: border-box;
+}
+
+.attention {
+    padding: 2% 10%;
+    background: #ddfaef;
+    border-radius: 1vh;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.detail {
+    display: none;
+}
+
+.toggle {
+    color: #f1f1f1;
+    overflow: hidden;
+    font-size: 2vh;
+    line-height: 3vh;
+}
+
+.toggle section {
+    text-indent: 2em;
+    font-size: 2vh;
+}
+
+.toggle_top {
+    text-align: center;
+    font-size: 2.6vh;
+    color: #fff;
+}
+
+.caption {
+    font-size: 2.6vh;
+    color: #fff;
+    margin-top: 5%;
+}
+
+.phone {
+    width: 90%;
+    font-size: 2vh;
+    color: #666;
+    padding: 5%;
+    background: #fff;
+    border-radius: 1vh;
+    box-shadow: 0 0 20px #ddfaef;
+    overflow: auto;
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.phoneHead {
+    color: #a9d8c7;
+    font-size: 2vh;
+}
+
+
+.numberBox,
+.verificationBox {
+    padding: 2% 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.verificationBox {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.phoneNumber,
+.verificationNumber {
+    padding-left: 1vh;
+}
+
+.verification {
+    flex: 4;
+}
+
+.Obtain {
+    flex: 1;
+    text-align: center;
+    border-left: 1px solid #e1e1e1;
+    background: none;
+}
+
+.determine {
+    width: 90%;
+    padding: 2% 0;
+    margin: 5% 5% 0 5%;
+    color: #fff;
+    font-size: 2.2vh;
+    background: #7ecbb4;
+    border-radius: 1vh;
+}
+
+.main {
+    background: #ddfaef;
+}
+
+.swiper-container {
+    box-sizing: border-box;
+}
+
+.swiperBox {
+    background: #a9d8c7;
+    position: relative;
+}
+
+.left,
+.right {
+    width: 3vh;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.left {
+    left: 1vh;
+}
+
+.right {
+    right: 1vh;
+}
+
+#swiper-container2 {
+    width: 80%;
+    padding: 2% 0;
+    text-align: center;
+}
+
+#swiper-container2 .swiper-slide {
+    font-size: 2vh;
+    color: #999 !important;
+    background: #fff !important;
+    border-radius: 50%;
+}
+
+#swiper-container2 .active-nav {
+    color: #333 !important;
+    background: #fffad5 !important;
+}
+
+/* ********************* */
+.content {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.flower {
+    padding: 5% 15%;
+    background: url(../img/bg.png);
+    background-size: 100% 100%;
+}
+
+.title {
+    width: 100%;
+    overflow: hidden;
+}
+
+.title h3 {
+    width: 100%;
+    color: #333;
+    font-size: 3vh;
+    font-weight: normal;
+}
+
+.title p {
+    color: #999;
+    font-size: 2vh;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    margin: 5% 0;
+}
+
+.vote {
+    width: 40%;
+    padding: 2% 0;
+    margin: 0 30%;
+    background: #fff;
+    border-radius: 2vh;
+}
+
+.Pagination {
+    margin: 6% 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.up,
+.down {
+    padding: 1% 10%;
+    color: #666;
+    font-size: 2vh;
+    white-space: nowrap;
+    background: #a9d8c7;
+    border-radius: 2vh;
+}
+
+/* 预览大图 */
+.preview {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 1);
+    z-index: 2;
+    box-sizing: border-box;
+    display: none;
+}
+
+.pictrue {
+    width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+/* 兼容苹果事件 */
+.vote,
+.preview,
+.image {
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    background: #ddfaef;
+}
+
+/* 提示 */
+.toast {
+    color: #fff;
+    font-size: 16px;
+    padding: 0.5vh 4vh;
+    border-radius: 2vh;
+    background: rgba(126, 203, 180, 0.8);
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    white-space: nowrap;
+}
